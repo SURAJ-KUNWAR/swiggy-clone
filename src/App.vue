@@ -1,14 +1,17 @@
 <template>
-  <the-header></the-header>
+<the-header></the-header>
 <cuisine-carousel></cuisine-carousel>
+<resturant-carousel></resturant-carousel>
 </template>
 
 
 <script>
 import CuisineCarousel from "./component/CuisineCarousel.vue"
+import ResturantCarousel from "./component/ResturantCarousel.vue";
 export default{
   components :{
-    CuisineCarousel
+    CuisineCarousel,
+    ResturantCarousel
   }
 }
 </script>
